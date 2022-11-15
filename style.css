@@ -223,7 +223,7 @@ li {
     z-index: 1;
     opacity: 0.9;
     background-color: black;
-    top: 0%;
+    top: 20px;
     left: 0%;
     transition: 1s ease;
     padding-top:2% ;

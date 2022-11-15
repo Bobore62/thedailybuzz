@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <img class="theft" src="4.PNG" >
+        <h3 class="cap">Mahlomola Mafotha at the hands of Thabana-Mokhele villagers</h3>
+        <h1 class="hed">MAN DIES AFTER KILLING MOTHER</h1>
+        <h3 class="author">BY PHOMOLO MATHIBELA</h3>
+        <div class="para">
+            <P>
+                Maseru- A man who resides in Thabana-Mokhele, 
+                Botha-Bothe, died on 28th October after beating up his 
+                biological mother to death, using a spade as a murder 
+                weapon.
+                The villagers of Thabana-Mokhele took it upon themselves to beat up Mahlomola Mafotha, who had become a problem to the villagers. He was known for 
+                terrorising women in that village, this is according to the village chief, ‘Mamohale Molapo (30). 
+                “We were now tired of cases of this man, first he harassed 
+                women in this village, him killing his mother made us mad 
+                so we decided to give him a little beating but we still did 
+                not mean for his death to be on our hands,” Molapo stated
+                .
+                When interviewed, Phokojoe Mafotha (45), Mahlomola’s older brother said he at first did not believe his little 
+                brother when he said he was going to kill their mother.
+            </P>
+            <img id="win" src="5.PNG" alt="">
+            <P>
+                “My little brother said when I returned to from the fields I was 
+                    going to find my mother dead, I did not believe him because he 
+                    sometimes goes mad and starts talking nonsense. I thought this 
+                    was one of the days where he lost his mind. Coming back home, 
+                    I found out he had done as he said he will,” Mafotha explained.
+                    “When the villagers started beating him up and dragging 
+                    him to the chief ’s house I was there and being as mad as I 
+                    was I let them beat him up. There were already complains of 
+                    him hitting on widows in the village, so it was easier for me 
+                    to believe he deserved those beatings he got,” said Mafotha.
+                    One of the eye witnesses and a neigbour, ‘Mamothae Maolane 
+                    (34) said she had never seen such a thing in her entire life and seeing that shuttered her soul.    
+            </P>
+            <p>
+                When I got to my neighbour’s house, I found her face disfigured. I couldn’t believe it was really her. What Mahlomola did 
+                is terrible. My neighbour was such a good person and a helper 
+                in our village and losing her is a great loss,” Maolane stated.
+                
+                “When the villagers were done with him, he was taken to 
+                hospital. He died a few days later. I did not expect his ending to be so early and so horrible,” Mafotha explained.
+            </p>
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>  

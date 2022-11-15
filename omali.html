@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <img class="theft" src="13.PNG" alt="">
+        <h1 class="hed">OMALI THEMBA PLOTS CONTINENTAL INVASION</h1>
+        <h3 class="author">BY LINEO RAMOTABOKA</h3>
+        <div class="para">
+            <p>
+                Maseru- A local artist Rethabile Casuel Nai, plans 
+                to make a name for himself across the African continent. Rethabile known as Omali Themba, aged 24, 
+                was born in the South African Gauteng Province 
+                in Nkaneng, but was raised in Maseru, Lesotho.
+                In 2005, he went to Liraoheleng LEC Primary 
+                School, Mapetla High School for secondary level in 
+                2011 and went to St. Joseph’s High School in 2015. 
+                “I fell in love with music back in 2012. Inspired 
+                by Komanda Obbs-led crew, Lithuamajoe; I 
+                loved the fact that they made the Sesotho language sound so cool. Back in those days, almost everyone wrote their music in English 
+                and that’s when I formed my own group by the 
+                name of Maapara Kobo in 2013”, Omali stated.
+            </p>
+            <img src="12.PNG" alt="">
+            <h3 class="cap">Botle bo Bokaalo Hitmaker: Omali Themba</h3>
+            <p>
+                He further explains that he went professional in 2019 when he signed under 
+                Sothokids Culture Modelling Agency where he got an EP that did amazingly good in the market being METSO EA SETSO, that’s was released in 
+                2019. This was a fifth track project that had powerful and personal songs like 
+                MOTHO KE NTHO E JOANG?, KOLL’AMALLA and few more. He has 
+                collaborated with some local artists like Morena Sway and Rumo la Koebe.
+                Omali says, “The love is so overwhelming to an extend 
+                that it makes me happy to see that people are loving and 
+                understanding my art. It is all God, something I cannot explain in words. My single is not yet out but the 
+                promotional videos that have me feeling like a star: it 
+                is amazing how people cannot wait for me to drop this 
+                song BOTLE BO BOKAALO featuring Morena Sway”.
+                He added that with this kind of work and support, he 
+                sees himself, his name and his brand all over the continent representing the Mountain Kingdom. Beside music, Omali is also a model at SothoKids Culture Agency. 
+                “ I look up to Burna Boy, Slava and Morena Leraba and I would love to feature with either one of them 
+                or all the African giants. So, my fans can expect the release of my new single with Morena Sway BOTLE BO 
+                BOKAALO and more of good music,” he concluded.
+            </p>
+            <p class="code">
+                “I loved the fact 
+                that they made the 
+                Sesotho language 
+                sound so cool.”
+            </p>
+        </div>
+        <img class="beer" src="11.PNG" >
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>    

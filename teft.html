@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <img src="9.PNG" class="theft">
+        <h2 class="cap">CAPTION: STOLEN LIVESTOCK FOUND</h2>
+
+        <h1 class="hed">MEN ACCUSED OF LIVESTOCK THEFT</h1>
+        <h3 class="author">BY KAMOHELO MOJAKISANE</h3>
+        <h3 class="place">MASERU</h3>
+        <div class="para">
+            <p>25 year old and 23 year old men from Thabong in Maseru, have been accused of stealing their neighbor’s livestock: 
+            five cows and five goats on the 25th March 2022, at 12 noon.
+            Thabiso Kwebu allegedly stole the livestock with the help of his friend Limakatso Tlhabaki, who was supposed to be herding the animals the day 
+            they disappeared. They were to sell them in South Africa so that there 
+            would not be a trace of them in the country. They both appeared before 
+            the village’s council on the 28th of March 2022 before being taken to Pitso 
+            Ground Police Station where they were officially charged with livestock theft.
+            Sizakhele Motaung*, the livestock owner, gave these two gentlemen a 
+            chance of honest living regardless of their past. She said that she always 
+            saw them like her own sons and never thought they would do such a thing.</p>
+
+            <p>
+                “I trusted them with my livestock because they are my neighbours 
+                and they needed a job to put bread on the table,” said Motaung*.
+                Kwebu and Tlhabaki were Sizakhele’s herders for two weeks before 
+                they allegedly committed a crime. The community members said 
+                that this is not the first offense the two have caught themselves into. 
+                This time they have actually been taken action against. Chief Mahaula also stated that he does not deeply know these two to actually characterize them, 
+                but he never thought history would repeat itself.
+                “This is the second strike of the same case from these two gentlemen. We let the first one slide because they apologized and seemed 
+                sincere but it seems like it is time they take responsibility for their 
+                actions,” said Chief Mahaula. He added that hopefully Kwebu and 
+                Tlhabaki will get the punishment they deserve to actually make 
+                an example for the villagers that livestock theft is a serious offense.
+                Police Officer Thabang Nhlapo said that the case is still pending and has no further comments about the case.
+            </p>
+            <img src="1.PNG" >
+
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>  

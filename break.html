@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <br>
+        <h1 class="h1">HEADLINES</h1>
+        <br>
+        <div class="headlines">
+            <a href="teft.html">
+                <div>
+                    <img src="9.PNG" >
+                    <h3 class="cap">BREAKING/</h3>
+                    <p>MEN ACCUSED OF LIVESTOCK THEFT</p>
+                </div>
+            </a>
+            <a href="attack.html">
+                <div>
+                    <h3 class="cap">BREAKING/</h3>
+                    <p>A Deadly Attack: a 2 year old man found dead</p>
+                </div>
+            </a>
+            <a href="abortion.html">
+                <div>
+                    <h3 class="cap">BREAKING/</h3>
+                    <p>ILLEGAL ABORTION</p>
+                </div>
+            </a>
+            <a href="man.html">
+                <div>
+                    <h3 class="cap">BREAKING/</h3>
+                    <p>MAN DIES AFTER KILLING MOTHER</p>
+                </div>
+            </a>
+
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>  

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <h1 class="hed">Opinion piece</h1>
+        <h3 class="author">HUMAN TRAFFICKING IN LESOTHO</h3>
+        <div class="para">
+            <p>
+                Recent studies show that Lesotho is principally a country of origin where traffickers target women and children to traffic them both internally and externally. Due 
+                to the particular geography of the region, most victims end up in the bordering nation of South Africa
+                According to research, the victims are made sex slaves, slaves, 
+                drug mules and lately beauty pageants. Foreign nationals 
+                use Lesotho as a transit point to the neighboring country, 
+                Human trafficking does not only happen from Lesotho to 
+                South Africa but also happen from other countries to Lesotho.
+                The causes of human trafficking are high unemployment rates, migration and mostly poverty. The economic conditions that the country faces greatly influence the 
+                occurrence of this type of a crime. Also, the impoverished communities, high unemployment, low levels of 
+                education and pronounced gender imbalances overlap.
+            </p>
+            <img class="beer" src="11.PNG" >
+            <p>
+                Sesotho’s economic sector is lacking to a greater extent to create jobs for its citizens for them to provide and supports themselves. Human traffickers target these kinds of people because 
+                they know they are vulnerable and need an income to survive.
+                The government of Lesotho has already has already came up 
+                with strategies like the partnerships with international organizations and Non-Governmental Organizations (NGOs) 
+                that will help combat human trafficking in the country but I 
+                feel like those strategies are not enough. As long as the traffickers continue to do this malicious crime that means the 
+                strategies are not sufficient enough. I think the government of 
+                Lesotho should implement India’s law of “Trafficking in Persons (Prevention, Care and Rehabilitation) Act, 2021” where 
+                culprits of human trafficking are sentenced to life in prison 
+                to prevent and counter trafficking especially with women 
+                and children unlike detaining them for a certain period.
+            </p>
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>     

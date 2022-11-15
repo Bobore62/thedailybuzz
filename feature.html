@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+            
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <img class="theft" src="7.PNG" >
+        <h1 class="hed">Limkokwing student talks 
+            film production</h1>
+        <h3>Molotsi speaks challenges faced by Lesotho film production industry</h3>
+        <h3 class="author">BY MAMELO VOOLO</h3>
+        <div class="para">
+            <p>
+                All career industries have their own 
+                challenges and difficulties especially when a person is still learning the pecks, the pro and cons of it 
+                and how it actually works. But why 
+                is this not talked about? Limkokwing University is the only higher institution in Lesotho that offers 
+                film making programmes but that 
+                does not mean the students do not 
+                face any challenges when enduring 
+                in the journey of film production.
+                Thapelo ‘Molotsi a first-year student 
+                from Limkokwing University of Creative Technology Lesotho enrolling 
+                in film production living in Maseru, 
+                Tsenola, talks how he as a film student encounters challenges that Basotho are not aware of. His passion 
+                to study film production began when 
+                he was 10 years old after watching 
+                a Steve Harvey production ‘Love 
+                Doesn’t Cost A Thing and since 
+                from then he has been more curios and wanted to learn more about 
+                the process of producing a film. 
+            </p>
+            <img src="8.PNG" >
+            <h3 class="cap"><b>ONSET:</b>  Thapelo Molotsi and crew shooting Lefa La Ntate</h3>
+            <p>
+                Molotsi stated that the lack of equipment 
+                the school has sometimes prevent him 
+                and his classmates to complete the assignments they have as the resources are limited. But he won’t let that discourage and 
+                demotivate him. He has produced films 
+                like Jimmy and Lefa la Ntate that have 
+                been showased at Moja Love Channel 157.
+                Among the reasons he chose to study 
+                film is to bring change in the industry 
+                as it lacks “motive”. He further stated 
+                that the challenge of film makers focusing on the same film genre is a challenge. 
+                “I hope to change the direction of 
+                film productions as Lesotho films 
+                only focus on Comedy or HIV/
+                AIDS awareness films,” Molotsi said.
+                Another challenge he mentioned 
+                is the lack of funding and less interest within the industry. Executive persons in the film industry 
+                are often interested in usual films 
+                that are frequently produced rather 
+                than films that are yet not executed.
+                His advice to up-coming eager film 
+                producers out there is that they 
+                should come fully prepared for the 
+                lot of work and headache the career brings and they should commit 
+                themselves to be bigger and better.
+                “I advise those who want to study 
+                film to bring their best and must 
+                not be discouraged by anything and 
+                must be prepared to put in the work.”
+            </p>
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>  

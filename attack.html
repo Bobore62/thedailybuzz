@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The daily buzz</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="calcu.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+           <h1 class="band-name">THE DAILY BUZZ</h1>
+           <div  class="row">
+            <span class="stroke">
+            <a class="open" onclick="openFun()" href="#">
+             <svg width="30" height="30">
+               <path d="M0,5 30,5" stroke="black" stroke-width="5"/>
+               <path d="M0,14 30,14" stroke="black" stroke-width="5"/>
+               <path d="M0,23 30,23" stroke="black" stroke-width="5"/>
+             </svg>  
+            </a>
+            </span>
+            <div id="slide">
+               <a id="bun" onclick="closeFun()" href="#">X</a>
+               <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+            </div>
+         </div>
+            <nav class="main-nav">
+                <div class="link-nav">
+                    <a class="item" href="index.html">NEWS</a>
+                    <a class="item" href="break.html">BREAKING</a>
+                    <a class="item" href="featur.html">FEATURES</a>
+                    <a class="item" href="sports.html">SPORTS</a>
+                    <a class="item" href="entertain.html">ENTERTAINMENT</a>
+                    <a class="item" href="about.html">ABOUT</a>
+                </div>
+            </nav>
+        </header>
+        <hr>
+        <div class="title">
+            <h3>Maseru, Monday, November 13, 2022, M6.00 </h3>
+            <h3> Vo l u m e 2 , N u m b e r 7 </h3>
+            <h3> SPECIAL EDITION</h3>
+        </div>
+        <h1 class="hed">A Deadly Attack</h1>
+        <h3 class="author">BY KAMOHELO MOJAKISANE</h3>
+        <div class="para">
+            <p>
+                Maseru- A 26- year- old man from Ha Makhoathi, Thaba-Bosiu was found dead in the neighboring village .
+                A night before his death, Neo Motsepa left his house earlier for work because he did not keep the records the previous day. On his way to work, he was followed by a group 
+                of boys wearing face masks. They dragged him and hit the 
+                back of his head with a metal rod; leaving him unconscious.
+                According to the eye-witness, the victim was 
+                found lying near the road at Ha Mosalla.
+                “It was around 6a.m, I was going to work when I saw a 
+                person sleeping by the road side,” Paseka Lebaka said. 
+            </p>
+            <img src="3.PNG">
+            <p>
+                He said he hooted a car so that the sleeping person could 
+                wake up, but he did not. Then Lebaka stopped the car to 
+                see who the person was. As he approached, he saw that it 
+                was Neo. “Neo! Wake up man, why are you sleeping here?”
+                “They attacked. me,” he murmured.
+                ebaka shouted for help to the villagers who gathered within two minutes. One of the weeping villagers begged Lebaka to take the victim to the hospital.
+                “Please take this boy to the hospital. He cannot die here 
+                while we are waiting for the police to arrive,” she cried. 
+                However, Lebaka told her that he cannot take Motsepa 
+                to the hospital but wait for the police to handle the case.
+            </p>
+            <p>
+                Unfortunately, the police were late because when 
+                they arrived, he was dead. They took the deceased for postmortem and opened a case. 
+                His mother said her son’s death was the hardest thing she went 
+                through. She said she received the news that her son was dead. 
+                “I could not belief the news. I was shocked,” she said, forcing back the tears. Sobbing throughout the interview, 
+                `Mantao Motsepa said she recently buried her husband and grandchild and now it was her son; 
+                who was the bread winner and hope of the family.
+                “What have I done to deserve all the pain?... May 
+                the evil murders of my son burn in hell,” she cried. 
+            </p>
+        </div>
+        <hr>
+        <footer class="main-footer">
+            <h3 class="band-name">DailyBuzzblog.com</h3>
+            <ul class="navli">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com"target="_blank">
+                        WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        facebook
+                    </a>
+                </li>
+            </ul>
+            <h4>2022:all rights are reserved</h4>
+    </footer>
+    <script>
+        function openFun() {
+            let side =document.getElementById('slide');
+           side.style.width='125px'
+            
+        }
+         function closeFun() {
+           document.getElementById('slide').style.width="0";
+           }
+    </script>
+</body>
+</html>  

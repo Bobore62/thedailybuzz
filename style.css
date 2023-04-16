@@ -11,6 +11,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
+    margin: 0;
 }
 .band-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -353,6 +353,9 @@ li {
     .navli li a{
         margin-left: 0px;
     }
+     .headlines .add {
+     margin 10px 0;
+    }
     
 }
 @media screen and (max-width: 500px) {
@@ -360,6 +363,9 @@ li {
     .para img{
         width: 100%;
         height: auto;
+    }
+    .headlines .add {
+     margin 10px 0;
     }
     .headlines a div img{
         width: 100%;

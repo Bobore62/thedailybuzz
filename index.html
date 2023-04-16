@@ -141,13 +141,13 @@
         <script>
             function openFun() {
                 let side =document.getElementById('slide');
-                document.getElementByClassName('stroke')[0].display="none";
-               side.style.width='100%';
+                document.querySelector('.stroke').display="none";
+               side.style.width='50%';
                 
             }
              function closeFun() {
                document.getElementById('slide').style.width="0";
-               document.getElementByClassName('stroke')[0].display="block";
+               document.querySelector('.stroke').display="block";
                }
         </script>
     </body>

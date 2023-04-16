@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    Padding:0;
     box-sizing:border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -214,7 +215,7 @@ li {
     background-color: aqua;
 }
 #slide {
-    Padding:20px;
+    Padding: 20px;
     height: 75%;
     width: 0%;
     position: absolute;
@@ -222,17 +223,18 @@ li {
     overflow-x: hidden;
     z-index: 1;
     opacity: 1;
-    background-color: black;
+    background-color: #fff;
     top: 0%;
     left: 0%;
     transition: 1s ease;
    display: none;
+   box-shadow: 0 0 15px #000;
     
 }
 #slide a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
     margin-left:20px;
 }

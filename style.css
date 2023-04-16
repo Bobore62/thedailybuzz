@@ -246,9 +246,10 @@ li {
 #bun {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 1%;
     color: #000;
     font-size:24px;
+    font-weight: 700;
 }
 .beer {
     max-width: 400px;

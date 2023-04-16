@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     display: block;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .band-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

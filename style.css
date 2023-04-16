@@ -105,7 +105,7 @@ hr {
     width: 100%;
     padding: 10px;
     background-color:red;
-    margin: 10px;
+    margin:10px 0;
     position: relative;
     animation-name: add;
     animation-duration: 5s;

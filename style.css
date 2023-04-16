@@ -258,7 +258,7 @@ li {
     animation-timing-function: linear;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    margin:10px;
+    margin:10px 0;
     
 }
 @keyframes add {

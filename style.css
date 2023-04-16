@@ -103,6 +103,7 @@ hr {
 }
 .headlines .add {
     width: 100%;
+    padding: 10px;
     background-color:red;
     margin: 10px;
     position: relative;
@@ -378,5 +379,8 @@ li {
     }
     .hed {
         font-size: 36px;
+    }
+    .headlines .add {
+     margin 10px 0;
     }
 }

@@ -114,8 +114,8 @@ hr {
 }
 .add img{
     width: 500px;
-    height: 250px;
-    margin: 30px;
+    height: auto;
+    
 }
 .add:hover{
     animation-name: stop;
@@ -229,7 +229,7 @@ li {
     left: 0%;
     transition: 1s ease;
    display: none;
-   box-shadow: 0 0 15px #000;
+   box-shadow: 0 0 25px #000;
     
 }
 #slide a {

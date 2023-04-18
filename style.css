@@ -246,12 +246,16 @@ li {
 }
 #bun {
     position: absolute;
-    top: -3px;
-    right: -2%;
+    top: 1px;
+    right: 1%;
     color: #000;
     font-size:30px;
     font-weight: 1000;
+}#bun:active {
+   background-color:#bbb;
+   border-radius:50%;
 }
+
 .beer {
     max-width: 400px;
     animation-name: beer;

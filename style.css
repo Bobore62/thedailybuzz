@@ -355,8 +355,9 @@ li {
         padding: 5px;
         
     }
-    .main-footer h1,h4{
-        margin: 10px;
+    .main-footer h4{
+        font-size: 10px;
+        color:#000;
     } 
     .navli {
         padding: 5px;

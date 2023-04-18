@@ -349,11 +349,10 @@ li {
         
     }
     .main-footer{
-        display: flex;
         flex-direction: column;
-        align-items:start;
-        justify-content: center;
-        padding: 0px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
         
     }
     .main-footer h1,h4{

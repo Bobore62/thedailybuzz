@@ -249,8 +249,8 @@ li {
     top: -3px;
     right: -2%;
     color: #000;
-    font-size:24px;
-    font-weight: 700;
+    font-size:30px;
+    font-weight: 1000;
 }
 .beer {
     max-width: 400px;
@@ -329,6 +329,7 @@ li {
     }
     .theft {
         width: 100%;
+        margin:10px 0;
         
     }
     .main-footer{
@@ -365,9 +366,13 @@ li {
     .para img{
         width: 100%;
         height: auto;
+        margin: 10px 0;
     }
     .headlines .add {
      margin 10px 0;
+    }
+    a{
+      width: 100%
     }
     .headlines a div img{
         width: 100%;

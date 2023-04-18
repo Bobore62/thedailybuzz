@@ -70,9 +70,9 @@ a {
 }
 hr {
     margin: 10px 0;
-    height:0;
+    height:3px;
     padding:0;
-    border: black solid 3px;
+    background: #000;
 }
 .headlines a div img{
     margin: 10px;

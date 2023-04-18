@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     display: block;
     margin: 0px;
-    padding: 10px;
+    padding: 160px 10px 10px;
 }
 .band-name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,6 +54,7 @@ img {
 a {
     text-decoration: none;
     color: black;
+    transition:.5s;
 }
 .headlines a:active {
     color: red;

@@ -329,7 +329,7 @@ li {
         font-size: 15px;
         border-bottom: black solid 2px;
     }
-    .headlines a div img{
+    .headlines a div img,#win {
         width:100%;
         height:auto;
         margin:10px 0px;

@@ -238,6 +238,7 @@ li {
     text-decoration: none;
     color: #000;
     margin: 20px;
+    width: fit-content;
 }
 .stroke {
     position: absolute;
@@ -251,6 +252,7 @@ li {
     color: #000;
     font-size:30px;
     font-weight: 1000;
+    z-index:1;
 }#bun:active {
    background-color:#bbb;
    border-radius:50%;

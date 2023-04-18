@@ -70,6 +70,8 @@ a {
 }
 hr {
     margin: 10px 0;
+    height:0;
+    padding:0;
     border: black solid 3px;
 }
 .headlines a div img{

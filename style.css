@@ -391,7 +391,7 @@ li {
       width: 100%
     }
     .headlines a div img{
-        width: 100%;
+        width: 300px;
         height: auto;
         margin:10px 0px;
     }

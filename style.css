@@ -7,7 +7,7 @@
     
 }
 body {
-    background:linear-gradient(to top, skyblue, rgb(247, 239, 239));
+    background-color:#ddd
     background-position: center;
     background-repeat: no-repeat;
     display: block;

@@ -255,6 +255,7 @@ li {
     z-index:1;
 }#bun:active {
    background-color:#bbb;
+   width: 40px;
    border-radius:50%;
 }
 

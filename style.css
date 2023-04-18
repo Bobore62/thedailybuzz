@@ -357,19 +357,15 @@ li {
     }
     .main-footer h1,h4{
         margin: 10px;
-    }
+    } 
     .navli {
-        padding: 0px;
-        width: fit-content;
+        padding: 5px;
+        width: 100%;
         margin: 10px;
-        align-self: start;
     }
     .navli li{
         margin: 0px;
-        margin-right: 5px;
-    }
-    .navli li a{
-        margin-left: 0px;
+        margin-left: 10px;
     }
      .headlines .add {
      margin 10px 0;

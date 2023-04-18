@@ -227,7 +227,7 @@ li {
     position: absolute;
     color: aliceblue;
     overflow-x: hidden;
-    z-index: 1;
+    z-index: 1000;
     opacity: 1;
     background-color: #fff;
     top: 0%;

@@ -361,12 +361,9 @@ li {
     .navli {
         padding: 5px;
         width: 100%;
-        margin: 10px;
+        justify-content: space-around;
     }
-    .navli li{
-        margin: 0px;
-        margin-left: 10px;
-    }
+    
      .headlines .add {
      margin 10px 0;
     }

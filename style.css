@@ -237,7 +237,6 @@ li {
 }
 #slide a {
     display: block;
-    margin: 20px 0;
     padding:10px;
     text-decoration: none;
     color: #000;
@@ -252,7 +251,6 @@ li {
 }
 #bun {
     position: absolute;
-    margin:0;
     padding:5px;
     top: 1px;
     right: 2px;

@@ -29,7 +29,7 @@ img {
     color: #fff;
     height: 150px;
     margin:0 0 10px;
-    padding: 10px 40px 10px 10px;
+    padding:10px;
     align-items: start;
     position:fixed;
     left:0;
@@ -292,10 +292,10 @@ li {
 }
 @media screen and (max-width: 850px) {
     body{
-    padding: 90px 0 0 0;
+    padding: 90px 10px 0 10px;
     }
-    .main-head{
-        height:70px;
+    .main-header{
+        height:fit-content ;
     }
     .main-nav a{
         display: none;

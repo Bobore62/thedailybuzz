@@ -154,8 +154,9 @@ hr {
 .author {
     font-weight: bold;
     width: fit-content;
+    white-space: nowrap;
     border-bottom: black solid 2.5px;
-    margin: 10px 10px;
+    margin: 10px;
 }
 .place {
     margin: 10px;

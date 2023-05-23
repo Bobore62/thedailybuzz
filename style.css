@@ -235,11 +235,10 @@ li {
     
 }
 #slide a {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin: 20px 0;
     text-decoration: none;
     color: #000;
-    justify-content: space-between;
     width: fit-content;
 }
 .stroke {
@@ -251,6 +250,7 @@ li {
 }
 #bun {
     position: absolute;
+    margin:0;
     top: 1px;
     right: 1px;
     color: #000;

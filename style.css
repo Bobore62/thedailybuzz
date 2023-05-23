@@ -35,7 +35,8 @@ img {
     left:0;
     right:0;
     top:0;
-    z-index:10;border-radius:0 0 15px 15px;
+    z-index:10;
+    /*border-radius:0 0 15px 15px;*/
 }
 .main-nav {
     align-self: end;
@@ -253,7 +254,7 @@ li {
     position: absolute;
     padding:5px;
     top: 1px;
-    right: -15px;
+    right: -45px;
     color: #000;
     font-size:30px;
     font-weight: 1000;
@@ -292,7 +293,7 @@ li {
 }
 @media screen and (max-width: 850px) {
     body{
-    padding: 90px 10px 0 10px;
+    padding: 60px 10px 0 10px;
     }
     .main-header{
         height:fit-content ;

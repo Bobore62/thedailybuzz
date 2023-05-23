@@ -133,7 +133,6 @@ hr {
 }
 .theft {
     width: 50%;
-    height: 350px;
     margin: 10px;
     margin-bottom: 0px;
     /*object-fit: cover;
@@ -154,7 +153,7 @@ hr {
 }
 .author {
     font-weight: bold;
-    width: 240px;
+    width: fit-content;
     border-bottom: black solid 2.5px;
     margin: 10px 10px;
 }
@@ -236,21 +235,24 @@ li {
     
 }
 #slide a {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: #000;
-    margin: 20px;
+    justify-content: space-between;
     width: fit-content;
 }
 .stroke {
     position: absolute;
-    right: 5%;
+    right: 5px;
     display: none;  
+    transition: .15s;
+    top: 5px;
 }
 #bun {
     position: absolute;
     top: 1px;
-    right: 1%;
+    right: 1px;
     color: #000;
     font-size:30px;
     font-weight: 1000;
@@ -301,7 +303,7 @@ li {
         display: block;
     }
     .band-name {
-        width: 150px;
+      
         font-size: 28px;
     }
     .title {
@@ -353,7 +355,7 @@ li {
         font-size: 10px;
         color:#000;
     }
-    .main-footer h3{margin:0;padding:0;}
+    .main-footer brand-name{margin:0;padding:0;}
     .navli {
         padding: 5px;
         width: 100%;

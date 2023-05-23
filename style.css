@@ -294,7 +294,7 @@ li {
 }
 @media screen and (max-width: 850px) {
     body{
-    padding: 90;
+    padding: 90px 0 0 0;
     }
     .main-head{
         height: fit-content;

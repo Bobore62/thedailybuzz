@@ -221,7 +221,6 @@ li {
 #slide {
     
     height: 400px;
-    padding : 10px;
     width: 0%;
     position: absolute;
     color: aliceblue;
@@ -239,6 +238,7 @@ li {
 #slide a {
     display: block;
     margin: 20px 0;
+    padding:10px;
     text-decoration: none;
     color: #000;
     width: fit-content;
@@ -293,7 +293,12 @@ li {
     100%{transform: rotateY(360deg);}
 }
 @media screen and (max-width: 850px) {
- 
+    body{
+    padding: 90;
+    }
+    .main-head{
+        height: fit-content;
+    }
     .main-nav a{
         display: none;
 
@@ -364,6 +369,9 @@ li {
         width: 100%;
         margin:0;
         justify-content: space-around;
+    }
+    .navli li{
+        margin:0;
     }
     
      .headlines .add {

@@ -11,7 +11,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    margin: 0px;
     padding: 160px 10px 10px;
 }
 .band-name {
@@ -22,7 +21,6 @@ body {
 }
 img {
     width: 300px;
-    height: auto;
 }
 .main-header {
     background-color: rgb(9, 73, 212);
@@ -77,7 +75,6 @@ hr {
 .headlines a div img{
     margin: 10px;
     width: 500px;
-    height: 300px;
 }
 .headlines a div p{
     margin-left: 10px;
@@ -99,7 +96,6 @@ hr {
 } 
 .para img{
     width: 500px;
-    height: 300px;
 
 }
 .para p{
@@ -123,8 +119,6 @@ hr {
 }
 .add img{
     width: 500px;
-    height: auto;
-    
 }
 .add:hover{
     animation-name: stop;

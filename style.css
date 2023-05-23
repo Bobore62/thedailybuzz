@@ -253,12 +253,12 @@ li {
 #bun {
     position: absolute;
     padding:5px;
-    top: 1px;
-    right: -45px;
+    top: -5px;
+    right: 1px;
     color: #000;
     font-size:30px;
     font-weight: 1000;
-    z-index:100;
+    z-index:1;
 }#bun:active,#bun:focus{
    background-color:#bbb;
    width: 40px;

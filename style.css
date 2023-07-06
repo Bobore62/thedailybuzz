@@ -245,10 +245,11 @@ li {
 }
 .stroke {
     position: absolute;
-    right: 5px;
+    right: 10px;
     display: none;  
     transition: .15s;
-    top: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 #bun {
     position: absolute;

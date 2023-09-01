@@ -227,7 +227,7 @@ li {
 }
 #slide a {
     display: block;
-    padding:10px 0 0;
+    padding:10px 0 0 10px;
     margin-bottom:10px;
     text-decoration: none;
     color: #000;

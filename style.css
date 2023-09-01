@@ -210,7 +210,6 @@ li {
     background-color: aqua;
 }
 #slide {
-    
     height: 400px;
     width: 0%;
     position: absolute;
@@ -228,7 +227,8 @@ li {
 }
 #slide a {
     display: block;
-    padding:10px;
+    padding:10px 0 0;
+    margin-bottom:10px;
     text-decoration: none;
     color: #000;
     width: fit-content;

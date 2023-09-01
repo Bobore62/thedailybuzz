@@ -172,7 +172,6 @@ li {
     background-color: blue;
     margin-top:10px ;
     width: 100%;
-    height: 150px;
     text-align: end;
     color:#fff;
     display: flex;
@@ -195,14 +194,14 @@ li {
 }
 .navli{
     display: flex;
+    align-items:center;
 
 }
 .navli {
     width: 200px;
-    align-self: end;
 }
 .navli li{
-    margin-left: 20px;
+    margin-right: 15px;
     height: 20px;
 }
 .navli li a {

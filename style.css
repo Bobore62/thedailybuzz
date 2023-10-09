@@ -99,8 +99,6 @@ hr {
 }
 .headlines .add {
     width: 100%;
-    display:flex;
-    justify-content:space-between;
     padding: 10px;
     background-color:red;
     margin:10px 0;
@@ -309,9 +307,7 @@ li {
     .title {
         display: block;
     }
-    .add{
-       flex-direction:column; 
-    } 
+    
     .add img{
         width: 100%;
         height:fit-content;
@@ -345,6 +341,7 @@ li {
     }
     .theft {
         width: 100%;
+        height:fit-content;
         margin:10px 0;
         
     }

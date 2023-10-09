@@ -66,7 +66,7 @@ hr {
 }
 .headlines a div img{
     margin: 10px;
-    width: 500px;
+    height: 500px;
 }
 .headlines a div p{
     margin-left: 10px;
@@ -99,6 +99,8 @@ hr {
 }
 .headlines .add {
     width: 100%;
+    display:flex;
+    justify-content:space-between;
     padding: 10px;
     background-color:red;
     margin:10px 0;
@@ -110,7 +112,7 @@ hr {
     animation-timing-function: linear;
 }
 .add img{
-    height: 300px;
+    width: 500px;
 }
 .add:hover{
     animation-name: stop;
@@ -309,6 +311,7 @@ li {
     }
     .add img{
         width: 100%;
+        height:fit-content;
        
     } 
     .headlines .add {
@@ -316,7 +319,7 @@ li {
     }
     img{
         width: 100%;
-        height:auto;
+        height:fit-content;
         }
     
     .headlines a div{
@@ -334,7 +337,7 @@ li {
     }
     .headlines a div img,#win {
         width:100%;
-        height:auto;
+       height:fit-content;
         margin:10px 0px;
     }
     .theft {
@@ -375,7 +378,7 @@ li {
     }
     .para img{
         width: 100%;
-        height: auto;
+        height:fit-content;
         margin: 10px 0;
     }
     .headlines .add {
@@ -386,7 +389,7 @@ li {
     }
     .headlines a div img{
         width: 300px;
-        height: auto;
+        height:fit-content;
         margin:10px 0px;
     }
     .stroke {

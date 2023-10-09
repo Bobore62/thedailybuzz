@@ -112,7 +112,7 @@ hr {
     animation-timing-function: linear;
 }
 .add img{
-    width: 500px;
+    height: 300px;
 }
 .add:hover{
     animation-name: stop;

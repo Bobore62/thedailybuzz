@@ -18,7 +18,7 @@ body {
     font-size: 40px;
 }
 img {
-    width: 300px;
+    height: 300px;
 }
 .main-header {
     background-color: rgb(9, 73, 212);
@@ -87,7 +87,7 @@ hr {
     display: block;
 } 
 .para img{
-    width: 500px;
+    height: 300px;
 
 }
 .para p{
@@ -110,7 +110,7 @@ hr {
     animation-timing-function: linear;
 }
 .add img{
-    width: 500px;
+    height: 300px;
 }
 .add:hover{
     animation-name: stop;

@@ -107,9 +107,10 @@ hr {
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: linear;
+    overflow-x:hidden;
 }
 .add img{
-    height: 300px;
+    height: 200px;
 }
 .add:hover{
     animation-name: stop;
